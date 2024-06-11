@@ -1,0 +1,114 @@
+.stepper-container {
+  padding-left: 100px !important;
+  display: flex;
+  align-items: center;
+}
+
+.highlighted {
+  background-color: #fff;
+  box-shadow: 0 1px 10px #0006;
+  z-index: 1000000000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.driver-popover {
+  opacity: 1!important;
+}
+
+.driver-popover.driverjs-themes {
+  border-radius: 15px;
+  max-width: 250px;
+  background-color: #082C3D;
+  color: white;
+  min-height: 120px;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-title {
+  font-size: 12px;
+  font-weight: 700;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-description{
+  font-size: 11px;
+  color: white;
+  font-weight: 300;
+  opacity: 0.6;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-progress-text {
+  position: absolute;
+  left: 44%;
+  font-size: 11px;
+  color: white;
+  font-weight: 300;
+  opacity: 0.6;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 13px;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.9;
+  color: white;
+  top: unset;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-navigation-btns {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  bottom: 0;
+  border-radius: 60px;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-footer {
+  margin-top: 15px;
+  border-top: 1px dotted rgba(169, 169, 169, 0.5);
+  padding-top: 10px;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-footer button {
+  padding: 2px 8px;
+  text-decoration: none;
+  font: 11px / normal sans-serif;
+  cursor: pointer;
+  zoom: 1;
+  line-height: 1.2;
+  border-radius: 60px;
+  text-shadow: none;
+  border: 1px solid rgba(163, 163, 163, 0.5);
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-prev-btn {
+  background-color: transparent;
+  color: white;
+  opacity: 0.8;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-next-btn {
+  background-color: #A02E48;
+  color: white;
+  opacity: 0.8;
+  border: none !important;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-arrow-side-left.driver-popover-arrow {
+  border-left-color: #082C3D;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-arrow-side-right.driver-popover-arrow {
+  border-right-color: #082C3D;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-arrow-side-top.driver-popover-arrow {
+  border-top-color: #082C3D;
+}
+ 
+.driver-popover.driverjs-themes .driver-popover-arrow-side-bottom.driver-popover-arrow {
+  border-bottom-color: #082C3D;
+}

@@ -1,0 +1,198 @@
+{
+    "home": {
+        "contextualGuide": {
+            "enabled": true,
+            "theme": {
+                "primaryColor": "#007bff",
+                "secondaryColor": "#6c757d",
+                "yellowColor": "#fde047",
+                "default": ""
+            },
+            "steps": [
+                {
+                    "id": "step-1",
+                    "title": "Explore Tomato",
+                    "content": "Click on the menu items to exlore our website .",
+                    "targetSelector": "#navbar-middle-menu",
+                    "position": "bottom-center"
+                },
+                {
+                    "id": "step-2",
+                    "title": "Food Menu",
+                    "content": "Click here to check our food categories .",
+                    "targetSelector": "#view-all-menu",
+                    "position": "right-center"
+                },
+                {
+                    "id": "step-3",
+                    "title": "Food Options",
+                    "content": "Click on your favourite food to check all the food items related to that category .",
+                    "targetSelector": "#explore-menu-list",
+                    "position": "top-center"
+                },
+                {
+                    "id": "step-4",
+                    "title": "Add Your favourite food",
+                    "content": "Click here to add your favourite food on your cart list .",
+                    "targetSelector": "#add-food-item",
+                    "position": "bottom-start"
+                },
+                {
+                    "id": "step-5",
+                    "title": "Cart Items",
+                    "content": "Click here to check the food items you added in your cart list .",
+                    "targetSelector": "#check-cart-items",
+                    "position": "bottom-end"
+                },
+                {
+                    "id": "step-6",
+                    "title": "Sign in",
+                    "content": "But to order any food you have to sign in .",
+                    "targetSelector": "#sig-in",
+                    "position": "bottom-end"
+                }
+            ],
+            "onboardingCompletedCookie": "onboarding_completed",
+            "showOnboardingOnReload": false
+        },
+        "announcementTicker": {
+            "enabled": true,
+            "items": [
+                "This script calculates the total height needed based on the provided dimensions",
+                "According to your actual design",
+                "63a054b0eca6c7459d2f1ab267d98656e99311d0"
+            ]
+        }
+    },
+    "cart": {
+        "contextualGuide": {
+            "enabled": true,
+            "theme": {
+                "primaryColor": "#007bff",
+                "secondaryColor": "#6c757d",
+                "yellowColor": "#fde047",
+                "default": ""
+            },
+            "steps": [
+                {
+                    "id": "step-1",
+                    "title": "Promocode",
+                    "content": "If you have promocode, you can use .",
+                    "targetSelector": "#cart-promo-code-input",
+                    "position": "bottom-center"
+                },
+                {
+                    "id": "step-2",
+                    "title": "Proceed",
+                    "content": "Click here to proceed for payment .",
+                    "targetSelector": "#proceed_to_checkout",
+                    "position": "right-center"
+                }
+            ],
+            "onboardingCompletedCookie": "onboarding_completed",
+            "showOnboardingOnReload": false
+        },
+        "tour":{
+            "enabled":false
+        }
+    },
+    "faq": {
+        "heading":"FAB FAQS",
+        "enabled": true,
+        "faqItems" : [
+            { 
+                "question": "How do I open a bank account with FAB?", 
+                "answer": "To create your account with FAB, you can visit their website and follow the instructions for account opening. You may need to provide personal information and identification documents" 
+            },
+            { 
+                "question": " What are the requirements for opening a bank account with FAB?", 
+                "answer": "Typically, you will need to provide proof of identity such as a passport or national ID card, proof of address, and possibly other documents depending on the type of account you wish to open." 
+            },
+            { 
+                "question": "How can I access FAB's online banking services?", 
+                "answer": "You can access FAB's online banking by visiting their website and logging in with your account credentials. Alternatively, you may download their mobile banking app from the App Store or Google Play Store and log in using your account details." 
+            },
+            { 
+                "question": "What services are offered through FAB's online banking platform?", 
+                "answer": "FAB's online banking platform typically offers services such as account balance inquiries, fund transfers, bill payments, account statements, and more, depending on the specific features available to you as a customer." 
+            },
+            { 
+                "question": "Is there a mobile app for FAB's banking services?", 
+                "answer": "Yes, FAB usually offers a mobile banking app that allows customers to conveniently access banking services on their smartphones or tablets. You can download the app from the App Store or Google Play Store." 
+            },
+            { 
+                "question": "How do I reset my online banking password with FAB?", 
+                "answer": "If you forget your online banking password with FAB, you can usually initiate a password reset process through their website or mobile app. Follow the prompts to verify your identity and create a new password." 
+            },
+            { 
+                "question": "What should I do if I notice suspicious activity on my FAB account?", 
+                "answer": " If you suspect unauthorized activity on your FAB account, it's important to contact the bank immediately. They will guide you through the necessary steps to secure your account and investigate any fraudulent transactions." 
+            },
+            { 
+                "question": "Can I link external accounts to my FAB account for transfers?", 
+                "answer": "Yes, FAB typically allows customers to link external accounts for fund transfers. You may need to verify ownership of the external account before initiating transfers." 
+            },
+            { 
+                "question": "What are the fees associated with FAB's banking services?", 
+                "answer": " Fees vary depending on the type of account and services you use. Common fees may include account maintenance fees, transaction fees, ATM withdrawal fees, and international transfer fees. It's best to consult FAB's fee schedule or contact their customer service for specific information" 
+            },
+            { 
+                "question": "How long does it take for a fund transfer to be processed through FAB?", 
+                "answer": "The processing time for fund transfers with FAB can vary depending on factors such as the destination of the transfer and the transfer method used. Domestic transfers may be processed within the same business day, while international transfers may take a few business days to complete." 
+            }
+        ],
+        "position" : "position-bottom-right"
+    },
+    "announcementTicker": {
+        "enabled": true,
+        "items": [
+            "This script calculates the total height needed based on the provided dimensions",
+            "According to your actual design",
+            "Tested"
+        ]
+    },
+    "quickTour":{
+     "heading" : "Welcome to the Tour Guided"
+    },
+    "announcementModal": {
+        "enabled": true,
+        "heading": "Important Announcement!",
+        "questionsAnswers": [
+            {
+                "button": "my button",
+                "question": "Data types in JavaScript?",
+                "answer": "Data types in JavaScript define the data type that a variable can store. JavaScript includes primitive and non-primitive data types."
+            },
+            {
+                "button": "my button",
+                "question": "Object-oriented programming (OOP)?",
+                "answer": "OOP) is a programming paradigm that allows us to model real-world objects in our code. OOP in JavaScript is based on creating objects that have properties (features) and methods (functions that can perform actions)."
+            },
+            {
+                "button": "my button",
+                "question": "Scope?",
+                "answer": "Scope determines the accessibility of variables, objects, and functions from different parts of the code."
+            },
+            {
+                "button": "my button",
+                "question": "Functions in JavaScript?",
+                "answer": "Functions are blocks of reusable code that perform a specific task. In JavaScript, functions are first-class objects, which means they can be passed around like any other value."
+            },
+            {
+                "button": "my button",
+                "question": "Arrays in JavaScript?",
+                "answer": "Arrays are special types of objects that store multiple values in a single variable. They are used to store collections of data, such as lists of items or sets of values."
+            },
+            {
+                "button": "my button",
+                "question": "Conditional statements in JavaScript?",
+                "answer": "Conditional statements are used to execute different code based on different conditions. The most common conditional statements in JavaScript are if, else if, and else."
+            },
+            {
+                "button": "my button",
+                "question": "Loops in JavaScript?",
+                "answer": "Loops are used to execute the same block of code repeatedly until a specified condition is met. JavaScript supports several types of loops, including for, while, and do-while loops."
+            }
+        ]
+    }
+}

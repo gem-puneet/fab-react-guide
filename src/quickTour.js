@@ -7,7 +7,13 @@ export const QuickTourComp = ()=>{
   useEffect(()=>{
     const tour = new QuickTour(configSteps);
     tour.view(); 
+
+    return ()=>{
+      tour.closeModal();
+    }
   },[])
+
+  return null;
 }
 
 

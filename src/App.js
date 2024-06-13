@@ -10,6 +10,7 @@ import { AnnModalComp } from "./AnnModal";
 import { FabTourGuide } from "./FabTourGuide";
 // import MultiStepForm from "./JsonForm";
 import { FAQ } from "./faq.js";
+import { AnnouncementSlider } from "./AnnouncementCarousel.js";
  
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="/quickTour" element={<QuickTourComp />} />
         <Route path="/annmodal" element={<AnnModalComp />} />
         <Route path="/fabTour" element={<FabTourGuide />} />
+        <Route path="/annSlider" element={<AnnouncementSlider/>}/>
       </Routes>
     </div>
   );

@@ -26,9 +26,9 @@ const Navbar = () => {
         <li>
           <Link to="/fabTour">Fab Tour</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/annCarousal">Announcement Carousel</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
